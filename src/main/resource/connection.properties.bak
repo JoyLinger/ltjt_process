@@ -1,0 +1,15 @@
+authentication=LDAP
+SERVER_IP=172.16.0.44
+DB_NAME=default
+LDAP_USER=hive
+LDAP_PASSWD=hive123.
+INCEPTOR_PORT=10000
+DRIVER_CLASS=org.apache.hive.jdbc.HiveDriver
+testTable=system.dual
+initialConnections=10
+incrementalConnections=5
+maxConnections=50
+
+MANAGER_IP=172.16.0.42
+MANAGER_PORT=8180
+REST_API_LOGIN=/api/users/login
